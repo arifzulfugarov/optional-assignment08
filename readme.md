@@ -63,7 +63,7 @@ The platform has decided to replace the outdated React + Node.js online store wi
     - **g)** 1 point: *Free game:* If the game's `price` attribute is zero, write `Free to Play` into a `span` element in the `div.info` element.
     - **h)** 1 point: *Unreleased game:* If the game's `price` attribute is a negative number, write `Add to your wishlist` into a `span` element in the `div.info` element.
 
-![php-4-store](src/php-4-store.png)
+![php-4-store](php-4-store/php-4-store.png)
 
 ### 5. Rating (php-5-rating, 12 points)
 
@@ -96,7 +96,7 @@ Error messages:
 - `The "bug" word is mandatory in the opinion for a "bad" rating!`
 - `The "crash" word is mandatory in the opinion for a "terrible" rating!`
 
-![php-5-rating](src/php-5-rating.gif)
+![php-5-rating](php-5-rating/php-5-rating.gif)
 
 ### 6. Achievements (php-6-achievements, 12 points)
 Games are often complemented by different achievements/milestones. The platform would like to be able to display the achievements associated with the games on the game pages. **You don't have to validate the form!** You have to store the data in JSON, and you have to be able to read it from there.
@@ -108,4 +108,4 @@ Games are often complemented by different achievements/milestones. The platform 
 - **e)** 2 points: If we click on an achievement, we should go to the page of the game to which it belongs, where the name of the game appears as a heading, and below it is the list of achievements associated with the game.
 - **f)** 3 points: In the list of achievements (on the game's page), there should be a button (link) on each row that can be used to delete the given achievement.
 
-![php-6-achievements](src/php-6-achievements.gif)
+![php-6-achievements](php-6-achievements/php-6-achievements.gif)
