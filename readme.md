@@ -23,6 +23,7 @@ Your solution goes to `index.js` where you can simply refer to the data structur
 - c. (3 points) Write whether there is (true or false) a connection that leads to Budapest into the element with ID `task3`.
 - d. (3 points) Write the average number of elements in green connections into the element with ID `task4`.
 
+![js-1-ticket](js-1-ticket/f1.png)
 
 ## Task 2: Postcard (js-2-postcard, 12 points)
 
@@ -35,6 +36,7 @@ Create a postcard generator application! You fill in the fields and their values
 - e. (2 points) When typing, always write the content of the first textarea in the paragraph inside the `postcard` element.
 - f. (2 points) When typing, always set the style class of the paragraph inside the `postcard` element to `left`, `center` or `right` according to the value of the radio buttons next to the first textarea. *(Technical help: how to use radio buttons see 5th lecture!)*
 
+![js-2-postcard](js-2-postcard/f2.gif)
 
 ## Task 3: Bar chart (js-3-barchart, 12 points)
 
@@ -45,6 +47,8 @@ In this task, you need to create a bar chart/graph drawing application using a C
 - c. (3 points) At the height of the highest column, draw a black line 4 pixels thick across the entire width of the canvas.
 - d. (2 points) When the "Animate" checkbox is checked, change the value of each slider at short intervals by a random value between -2 and +2 and update the chart.
 - e. (2 points) The animation should be stopped by unchecking the checkbox.
+
+![js-3-barchart](js-3-barchart/f3.gif)
 
 ## PHP tasks
 ### 4. Store (php-4-store, 10 points)
@@ -63,7 +67,7 @@ The platform has decided to replace the outdated React + Node.js online store wi
     - **g)** 1 point: *Free game:* If the game's `price` attribute is zero, write `Free to Play` into a `span` element in the `div.info` element.
     - **h)** 1 point: *Unreleased game:* If the game's `price` attribute is a negative number, write `Add to your wishlist` into a `span` element in the `div.info` element.
 
-![php-4-store](src/php-4-store.png)
+![php-4-store](php-4-store/php-4-store.png)
 
 ### 5. Rating (php-5-rating, 12 points)
 
@@ -96,7 +100,7 @@ Error messages:
 - `The "bug" word is mandatory in the opinion for a "bad" rating!`
 - `The "crash" word is mandatory in the opinion for a "terrible" rating!`
 
-![php-5-rating](src/php-5-rating.gif)
+![php-5-rating](php-5-rating/php-5-rating.gif)
 
 ### 6. Achievements (php-6-achievements, 12 points)
 Games are often complemented by different achievements/milestones. The platform would like to be able to display the achievements associated with the games on the game pages. **You don't have to validate the form!** You have to store the data in JSON, and you have to be able to read it from there.
@@ -108,4 +112,4 @@ Games are often complemented by different achievements/milestones. The platform 
 - **e)** 2 points: If we click on an achievement, we should go to the page of the game to which it belongs, where the name of the game appears as a heading, and below it is the list of achievements associated with the game.
 - **f)** 3 points: In the list of achievements (on the game's page), there should be a button (link) on each row that can be used to delete the given achievement.
 
-![php-6-achievements](src/php-6-achievements.gif)
+![php-6-achievements](php-6-achievements/php-6-achievements.gif)
