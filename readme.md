@@ -23,6 +23,7 @@ Your solution goes to `index.js` where you can simply refer to the data structur
 - c. (3 points) Write whether there is (true or false) a connection that leads to Budapest into the element with ID `task3`.
 - d. (3 points) Write the average number of elements in green connections into the element with ID `task4`.
 
+![js-1-ticket](js-1-ticket/f1.png)
 
 ## Task 2: Postcard (js-2-postcard, 12 points)
 
@@ -35,6 +36,7 @@ Create a postcard generator application! You fill in the fields and their values
 - e. (2 points) When typing, always write the content of the first textarea in the paragraph inside the `postcard` element.
 - f. (2 points) When typing, always set the style class of the paragraph inside the `postcard` element to `left`, `center` or `right` according to the value of the radio buttons next to the first textarea. *(Technical help: how to use radio buttons see 5th lecture!)*
 
+![js-2-postcard](js-2-postcard/f2.gif)
 
 ## Task 3: Bar chart (js-3-barchart, 12 points)
 
@@ -45,6 +47,8 @@ In this task, you need to create a bar chart/graph drawing application using a C
 - c. (3 points) At the height of the highest column, draw a black line 4 pixels thick across the entire width of the canvas.
 - d. (2 points) When the "Animate" checkbox is checked, change the value of each slider at short intervals by a random value between -2 and +2 and update the chart.
 - e. (2 points) The animation should be stopped by unchecking the checkbox.
+
+![js-3-barchart](js-3-barchart/f3.gif)
 
 ## PHP tasks
 ### 4. Store (php-4-store, 10 points)
