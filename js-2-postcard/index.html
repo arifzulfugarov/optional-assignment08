@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Task 2: Postcard</h1>
+
+    <h2>Editor</h2>
+    <form>
+      <fieldset>
+        <legend>Basic data</legend>
+        <div>
+          <label for="background-color">Background color:</label>
+          <input type="text" id="background-color" />
+        </div>
+        <div>
+          <label for="addressee">Addressee:</label>
+          <input type="text" id="addressee" />
+        </div>
+        <div>
+          <label for="sender">Sender:</label>
+          <input type="text" id="sender" />
+        </div>
+      </fieldset>
+      <fieldset class="contents">
+        <legend>Content</legend>
+        <div>
+          <textarea cols="30" rows="3"></textarea><br>
+          <input type="radio" name="align1" value="left" /> Left
+          <input type="radio" name="align1" value="center" checked /> Center
+          <input type="radio" name="align1" value="right" /> Right
+        </div>
+      </fieldset>
+    </form>
+    
+    <h2>Sample</h2>
+    <section id="postcard">
+      <h1>Dear John!</h1>
+      <div class="contents">
+        <p class="left">Marry Xmas!</p>
+      </div>
+      <footer>With Love, Jane</footer>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
